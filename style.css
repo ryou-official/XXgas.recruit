@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+/*  base  */
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", sans-sans-serif;
+  font-weight: 500;
+  color: #333;
+  line-height: 2.0;
+}
+
+h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+ul, li, dl, dt, dd {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  transition: .3s;
+  opacity: 0.6;
+}
+
+section {
+  margin-bottom: 120px;
+}
+
+.content-wrapper {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+/* header */
+
+.header {
+  width: 100%;
+}
+
+.header-nav {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header nav ul li {
+  margin-right: 50px;
+}
+
+/*subvisual*/
+.subvisual {
+  width: 100%;
+  height: 200px;
+  background-image: url(https://bit.ly/387flYn);
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+}
+
+.subvisual h1 {
+  margin: 0;
+  text-align: center;
+  line-height: 200px;
+  font-size: 1.5rem;
+  color: #fafafa;
+  font-weight: normal;
+}
+
+/*table*/
+.recruit-table {
+  margin-bottom: 120px;
+}
+
+.recruit-table h2 {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.recruit-table table {
+  width: 100%;
+  margin: 0 auto;
+  border-top: #e8e7e7;
+}
+
+.recruit-table table th {
+  width: 30%;
+  box-sizing: border-box;
+  padding: 20px;
+  line-height: 1.5em;
+  text-align: left;
+  background: #e8e7e7;
+  border-bottom: 1px solid #fafafa;
+}
+
+.recruit-table table td {
+  box-sizing: border-box;
+  padding: 20px;
+  line-height: 1.5em;
+  text-align: left;
+  background: #fafafa;
+  border-bottom: 1px solid #e8e7e7;
+}
+
+/*footer*/
+.footer .content-wrapper {
+  width: 1200px;
+  padding: 50px 0 80px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.address p {
+  margin: 0;
+  line-height: 1.8;
+}
+
+.footer ul {
+  display: flex;
+}
+
+.footer ul li {
+  margin: 0 25px;
+}
+
+.copylight p {
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+  font-size: 0.75rem;
+  margin: 0;
+  color: #333;
+  background-color: #e8e7e7;
+}
